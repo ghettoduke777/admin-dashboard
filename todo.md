@@ -14,7 +14,7 @@
 - [x] Create knowledge_base table (id, category, question, answer, resolution, sourceTicketId, embedding, createdAt, updatedAt)
 - [x] Create email_notifications table (id, recipientEmail, eventType, ticketId, content, sentAt, status)
 - [x] Create admin_approvals table (id, adminId, requestType, requestId, status, approvedAt, notes)
-- [x] Generate and apply database migrations
+- [x] Generate and apply database migrations (FIXED: Applied via drizzle-kit migrate)
 
 ## Phase 3: LLM Reasoning Engine & Tool Orchestration
 - [x] Implement LLM invocation wrapper with system prompts for ticket decomposition
